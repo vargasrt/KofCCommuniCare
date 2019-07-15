@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile_24dp"
+            android:title="My Profiles"/>
+<!--
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/nav_downloads"
+            android:icon="@drawable/ic_downloads_black_24dp"
+            android:title="Downloads"/>
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_faq_24dp"
+            android:title="Frequently Ask Question"/>
+-->
+    </group>
+
+    <item android:title="Prayers">
+        <menu>
+            <item
+                android:id="@+id/nav_gj_willmann"
+                android:icon="@drawable/ic_bible_32dp"
+                android:title="Fr. George J. Willmann, SJ"/>
+            <item
+                android:id="@+id/nav_mj_mcgivney"
+                android:icon="@drawable/ic_bible_32dp"
+                android:title="Fr Michael J. McGivney"/>
+
+        </menu>
+    </item>
+
+</menu>

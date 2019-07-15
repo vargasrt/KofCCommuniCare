@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_messagebox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/layout_msgboxparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_sender"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical|bottom"
+            android:src="@mipmap/ic_launcher_kcshield"/>
+
+        <LinearLayout
+            android:id="@+id/layout_msgboxchild"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:paddingLeft="@dimen/margin_normal"
+            android:paddingRight="@dimen/margin_normal"
+            android:orientation="vertical"
+            android:background="@drawable/layout_roundbg"
+            android:paddingBottom="@dimen/margin_normal">
+            <TextView
+                android:id="@+id/text_msgbox_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_small"
+                android:paddingBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_small"
+                android:textSize="@dimen/text_size_xnormal"
+                android:text="Oct 29, 2018 15:14:08"
+                android:layout_gravity="right"/>
+            <TextView
+                android:id="@+id/text_msgbox_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_small"
+                android:paddingRight="@dimen/margin_small"
+                android:paddingBottom="@dimen/margin_small"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_gravity="left"
+                android:text="TO: UNDERWRITING DEPARTMENT"/>
+
+            <TextView
+                android:id="@+id/text_msgbox_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_large"
+                android:paddingTop="@dimen/margin_small"
+                android:paddingBottom="@dimen/margin_small"
+                android:text="What changes can I make on my benefit certificate? What are the requirements to effect change?"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+<!--
+    <FrameLayout
+        android:id="@+id/layout_msgboxframe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AppTheme.Card.Margins"
+        android:layout_gravity="end">
+    </FrameLayout>
+
+    style="@style/AppTheme.Card.Margins"
+    -->
+
+    <!--ImageView
+
+        android:id="@+id/image_senderme"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_profile_face_48dp"/-->
+
+    <!--
+                android:text="BCINQ 1002840 09141997"/>
+            <TextView
+                android:id="@+id/text_msgbox_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_normal"
+                android:text="What changes can I make on my benefit certificate? What are the requirements to effect change?"/>
+-->

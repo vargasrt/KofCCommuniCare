@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioAllwSrp"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+        <RadioButton
+            android:id="@+id/radioAllw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allowance"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioSRP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submitted, Released and Paid BCs" />
+    </RadioGroup>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/fccode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:hint="FC Code"
+            android:inputType="text|number" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/pincode"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:hint="Pincode"
+            android:inputType="text|number"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/srpdate"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:hint="Date (MMYYYY)"
+            android:inputType="text|number"
+            android:visibility="gone"/>
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

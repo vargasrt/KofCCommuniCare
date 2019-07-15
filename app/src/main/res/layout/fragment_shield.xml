@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_partner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_normal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:src="@mipmap/ic_launcher_kcshield" />
+
+                <TextView
+                    android:text="@string/title_kcfapi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/margin_normal"
+                    android:paddingLeft="@dimen/margin_normal"
+                    android:gravity="left"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:inputType="none"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="Quality Policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_large"
+                android:paddingBottom="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_xlarge"
+                android:textColor="#555555"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="@string/Introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_large"
+                android:paddingBottom="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_normal"
+                android:textColor="#555555"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/KCFAPI_QualityPolicy1"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingLeft="@dimen/margin_large"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <TextView
+                android:text="@string/BCHolderFocus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_large"
+                android:paddingBottom="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_normal"
+                android:textColor="#555555"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:text="@string/KCFAPI_QualityPolicy2"
+                android:textSize="@dimen/text_size_normal" />
+            <TextView
+                android:text="@string/Vision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_large"
+                android:paddingBottom="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_normal"
+                android:textColor="#555555"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/KCFAPI_QualityPolicy3"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingLeft="@dimen/margin_large"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <TextView
+                android:text="@string/MissionStatement"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_large"
+                android:paddingBottom="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_xlarge"
+                android:textColor="#555555"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="@string/Mission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_large"
+                android:paddingBottom="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_normal"
+                android:textAllCaps="true"
+                android:textColor="#555555"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/KCFAPI_Mission"
+                android:paddingRight="@dimen/margin_large"
+                android:paddingLeft="@dimen/margin_large"
+                android:textSize="@dimen/text_size_normal"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

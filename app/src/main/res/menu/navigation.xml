@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_announcement"
+        android:icon="@drawable/ic_announcement_24dp"
+        android:title="@string/title_announcement" />
+
+    <item
+        android:id="@+id/navigation_product"
+        android:icon="@drawable/ic_portfolio_24dp"
+        android:title="@string/title_product" />
+
+    <item
+        android:id="@+id/navigation_textconnect"
+        android:icon="@drawable/ic_textconnect_24dp"
+        android:title="@string/title_textconnect" />
+
+    <!--item
+        android:id="@+id/navigation_benefitcertificate"
+        android:icon="@drawable/ic_benefitcertificate_24dp"
+        android:title="@string/title_benefitcertificate" /-->
+    <item
+        android:id="@+id/navigation_kcfapiportal"
+        android:icon="@drawable/ic_portal_black_24dp"
+        android:title="@string/title_kcfapiportal" />
+</menu>

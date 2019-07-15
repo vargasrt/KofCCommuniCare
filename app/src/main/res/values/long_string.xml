@@ -1,0 +1,51 @@
+<resources>
+    <string name="Introduction">INTRODUCTION</string>
+    <string name="KCFAPI_QualityPolicy1">
+        The Knights of Columbus Fraternal Association of the Philippines, Inc. (KCFAPI),
+        a mutual benefit association duly registered and operating under the laws of the Republic of the Philippines,
+        is committed to provide optimum fraternal benefits to all its members and their immediate families within an
+        environment constantly nourished by the cardinal principles of the Order of the Knights of Columbus – charity,
+        unity, fraternity and patriotism.
+    </string>
+    <string name="BCHolderFocus">BC HOLDER FOCUS</string>
+    <string name="KCFAPI_QualityPolicy2">
+        Accordingly, the KCFAPI is BC-Holder Focused. Thus, it shall\n
+        \n\t\u2202 Continuously raise its standards of performance and improve its systems to promote and achieve growth, progress and stability.\n
+        \n\t\u2202 Fulfill its social responsibility for the good of the Order of the Knights of Columbus in the Philippines.\n
+        \n\t\u2202 Strictly comply with pertinent and relevant statutory and regulatory requirements prescribed by the Government.
+    </string>
+    <string name="Vision">VISION</string>
+    <string name="KCFAPI_QualityPolicy3">
+        The KCFAPI is inspired and guided by the following Vision:\n\nTo be the bridge that will effectively link the four geographically-distant Jurisdictions of the Knights of Columbus in the Philippines in their mission to provide protection to Knights of Columbus members and their families in Luzon North, Luzon South, Visayas and Mindanao, thereby making them as one family in faith, hope and love.\n\n
+    </string>
+
+    <string name="MissionStatement">Mission Statement</string>
+    <string name="Mission">Mission</string>
+    <string name="KCFAPI_Mission">
+        To pursue and accomplish its Vision, the KCFAPI endeavours to fulfil this Mission that gives life and strength to the spirit and values of its acronym, thus:\n
+        \n\t\u2202 The Knights of Columbus Fraternal Association of the Philippines, Inc. is fully committed to provide optimum mutual benefits to all its members and their immediate families;\n
+        \n\t\u2202 Competent and relentless in its effort to achieve continuous growth, stability and efficient service, it will always remain results-oriented and completely committed to its assigned tasks;\n
+        \n\t\u2202 Fully aware of its moral and social responsibility, it contributes to membership development and worthy causes for the good of the Order of the Knights of Columbus in the Philippines;\n
+        \n\t\u2202 Aspiring with renewed enthusiasm to be a premier mutual benefit association, it shall exemplify the highest standards of integrity and professionalism in its service;\n
+        \n\t\u2202 Perpetually inspired and directed by its Founders and Board of Trustees, it highly regards and is proud of its dynamic, committed, dedicated and loyal management, staff and field representatives as its valued resources; and\n
+        \n\t\u2202 Imbued with the principles of Charity, Unity, Fraternity and Patriotism, it maintains utmost flexibility in meeting the demands of the times as it stands resolutely firm in the pursuit of its avowed mission and objectives.\n\n
+    </string>
+    <string name="FrGeorgeJWillMannSJ">Blessed are You, Almighty Father, source of all goodness and wisdom. Look down upon us Your children, who are trying to serve You with all our heart. Deign to raise Fr. George J. Willmann to the honors of the altar.\n\nHe was the prayerful, strong, dauntless model that we all need in this new era, he was a pastor in the care and formation of the youth; the relief of victims of war and violence; the alleviation of the suffering of the poor and the preservation and promotion of the sanctity of life, marriage, and the family.\n\nMake him the lamp on the lamp stand giving light to all in the house. Make him the city set on the mountain which cannot be hidden, so that all of us may learn from his courage, his integrity, his indomitable spirit in propagating and living the Gospel.\n\nThrough his intercession, bestow on us the favor we ask You in faith (pause here and silently entrust to the Lord your petitions). Through Christ our Lord. Amen.</string>
+    <string name="FrMichaelJMcGivney">God, our Father, protector of the poor and defender of the widow and orphan, you called your priest, Father Michael J. McGivney, to be an apostle of Christian family life and to lead the young to the generous service of their neighbor.\n\nThrough the example of his life and virtue may we follow your Son, Jesus Christ, more closely, fulfilling his commandment of charity and building up his Body, which is the Church.\n\nLet the inspiration of your servant prompt us to greater confidence in your love so that we may continue his work of caring for the needy and the outcast.\n\nWe humbly ask that you glorify your Venerable servant Father Michael J. McGivney on earth according to the design of your holy will.\n\nThrough his intercession, grant the favor I now present (here make your request), through Christ our Lord.  Amen.\n\n\n</string>
+    <string name="Venerable">Venerable Fr. Michael J. McGivney\n- intercede for us\n\n</string>
+    <string name="OurFather">Our Father who art in heaven, hallowed be thy name. Thy kingdom come. Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil.</string>
+    <string name="HailMary">Hail Mary full of Grace, the Lord is with thee. Blessed are thou among women and blessed is the fruit of thy womb Jesus.\nHoly Mary Mother of God, pray for us sinners now and at the hour of our death. Amen.</string>
+    <string name="Glorybe">Glory be to the Father, and to the Son, and to the Holy Spirit:\nAs it was in the beginning, is now, and ever shall be, world without end. Amen.</string>
+    <string name="messagesample">The KCFAPI is inspired and guided by the following Vision: To be the bridge that will effectively link the four geographically-distant Jurisdictions of the Knig</string>
+    <string name="DailyVerse">Daily Verse</string>
+    <string name="NewsEvents">News and Events</string>
+    <string name="Notices">Notice</string>
+    <string name="BCInfo">BC Information Testing</string>
+    <string name="BCIquiry">BC Iquiry</string>
+    <string name="Allowance">Allowance Info</string>
+    <string name="Department">Department</string>
+    <string name="Protection">Protection Plan</string>
+    <string name="Retirement">Retirement Plan</string>
+    <string name="Savings">Savings Plan</string>
+    <string name="Investment">Investment Plan</string>
+</resources>
